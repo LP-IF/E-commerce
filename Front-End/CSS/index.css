@@ -22,6 +22,7 @@ header .barra-pesquisa{
     justify-content: left;
     border: 1px solid black;
     margin: 10px;
+    margin-left: 400px;
     padding-left: 9px;
     font-size: 16px;
     margin-right: 20%;
@@ -34,6 +35,12 @@ header .LOGO{
     text-align: center;
     margin: 8px;
     margin-left: 2%;
+}
+
+header .user{
+    text-align: right;
+    margin: 12px;
+    cursor: pointer;
 }
 
 .navbar-principal {
@@ -58,8 +65,9 @@ header .LOGO{
     text-decoration: none;
     color: black;
 }
-.navbar-principal #todas-categorias{
-    margin-left: 2%;
+
+.navbar-principal #categorias{
+    cursor: pointer;
 }
 
 .navbar-segunda {
