@@ -5,6 +5,8 @@ body {
     font-size: 14px;
 }
 
+/* --- MENUS --- */
+
 header {
     display: flex;
     flex-direction: row;
