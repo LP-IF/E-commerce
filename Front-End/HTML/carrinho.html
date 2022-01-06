@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="../CSS/carrinho.css">
+    <script src="https://kit.fontawesome.com/8d590d35c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="LOGO"><span><cite>E-fit</cite></span></div>
+        <div class="pesquisa">
+            <input type="text" class="txtBusca" placeholder="O que você está procurando?"/>
+            <button class="procurar" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+    </div>
+        <div class="user"><i class="fas fa-user-circle fa-2x"></i></div>
+    </header>
+    <nav>
+        <ul class="navbar-principal">
+            <li id="categorias"><i class="fas fa-bars"></i><a href="#">   Todas as categorias</a>  </li>
+            <li><a href="e-fit.com/promocoes">Promoções</a></li>
+            <li><a href="e-fit.com/mais-vendidos">Mais Vendidos</a></li>
+            <li><a href="e-fit.com/lancamentos">Lançamentos</a></li>
+        </ul>
+    </nav>
+    <nav>
+        <ul class="navbar-segunda">
+            <li><a href="e-fit.com/masculino">Masculino</a></li>
+            <li><a href="e-fit.com/feminino">Feminino</a></li>
+            <li><a href="e-fit.com/infantil">Infantil</a></li>
+            <li><a href="e-fit.com/acessorios">Acessórios</a></li>
+            <li><a href="e-fit.com/calcados">Calçados</a></li>
+            <li><a href="e-fit.com/roupas">Roupas</a></li>
+            <li><a href="e-fit.com/equipamentos">Equipamentos</a></li>
+        </ul>
+    </nav>
+    <!---- CARRINHO CLIENTE---->
+    <div class="cart">
+        <table>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Subtotal</th>
+            </tr>
+            <!---- PRODUTO 1---->
+            <tr>
+                <td>
+                    <div class="info-cart">
+                      <img src="tenis-branco.jpg">
+                      <div>
+                          <p>Tênis branco esportivo</p>
+                          <small>Preço: 500,00</small>
+                          <a href="">Excluir</a>
+                      </div>  
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R$500,00</td>
+            </tr>
+            <!---- PRODUTO 2---->
+            <tr>
+                <td>
+                    <div class="info-cart">
+                      <img src="tenis-nike.jpg">
+                      <div>
+                          <p>Tênis Nike colorido</p>
+                          <small>Preço: 800,00</small>
+                          <a href="">Excluir</a>
+                      </div>  
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R$800,00</td>
+            </tr>
+            <!---- PRODUTO 3---->
+            <tr>
+                <td>
+                    <div class="info-cart">
+                      <img src="kit-academia.jpg">
+                      <div>
+                          <p>Kit academia completo</p>
+                          <small>Preço: 2500,00</small>
+                          <a href="">Excluir</a>
+                      </div>  
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R$2500,00</td>
+            </tr>
+        </table>
+
+        <div class="total">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>R$3800,00</td>
+                </tr>
+                <tr>
+                    <td>Frete</td>
+                    <td>Grátis</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>R$3800,00</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>

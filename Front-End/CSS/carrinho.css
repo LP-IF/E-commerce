@@ -1,0 +1,145 @@
+body {
+    /*background-color: black;
+    color: white;*/
+    font-family: "Comic Sans MS", 'Comic Sans', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 50px;
+    background-color: #F19E9E;
+    margin: none;
+}
+
+header .barra-pesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: 1px solid black;
+    margin: 10px;
+    margin-left: 400px;
+    padding-left: 9px;
+    font-size: 16px;
+    margin-right: 20%;
+    height: 25px;
+    width: 420px;
+}
+
+header .LOGO{
+    font-size: 23px;
+    text-align: center;
+    margin: 8px;
+    margin-left: 2%;
+}
+
+header .user{
+    text-align: right;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.navbar-principal {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    height: 22px;
+    padding-right: 1%;
+    background-color: #C4C4C4;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    width: auto;
+}
+
+.navbar-principal a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-principal #categorias{
+    cursor: pointer;
+}
+
+.navbar-segunda {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    height: 12px;
+    padding-right: 1%;
+    margin-top: 5px;
+    background-color: #544C4C;
+}
+
+.navbar-segunda a{
+    text-decoration: none;
+    color: white;
+}
+
+/*CARRINHO CLIENTE */
+.cart{
+    margin: 20px auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-cart{
+    display: flex;
+    flex-wrap: wrap;
+}
+ th{
+     text-align: left;
+     padding: 5px;
+     color: black;
+     background: #F19E9E;
+ }
+
+ td{
+     padding: 10px 5px;
+ }
+
+ td input{
+     width: 40px;
+     height: 30px;
+     padding: 5px;
+ }
+
+ td a{
+     color: #F19E9E ;
+     font-size: 12px;
+ }
+
+ td img{
+     width: 80px;
+     height: 80px;
+     margin-right: 10px;
+ }
+
+ .total{
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ .total table{
+     border-top: 2px solid #F19E9E;
+     width: 100%;
+     max-width: 300px;
+ }
