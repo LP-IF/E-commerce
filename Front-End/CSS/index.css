@@ -1,9 +1,9 @@
-body {
+/*body {
     /*background-color: black;
     color: white;*/
-    font-family: "Comic Sans MS", 'Comic Sans', sans-serif;
-    font-size: 14px;
-}
+ 
+
+/* --- MENUS --- 
 
 header {
     display: flex;
@@ -16,19 +16,31 @@ header {
     margin: none;
 }
 
-header .barra-pesquisa{
+header .pesquisa{
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    border: 1px solid black;
     margin: 10px;
-    margin-left: 400px;
-    padding-left: 9px;
-    font-size: 16px;
-    margin-right: 20%;
-    height: 25px;
-    width: 420px;
-}
+    border: none;
+  }
+  
+  #txtBusca{
+      justify-content: center;
+      background-color:transparent;
+      font-style:italic;
+      font-size:16px;
+      height:23px;
+      width:420px;
+      border:1px solid black;
+      border-right: none;
+  }
+  
+  header .procurar {
+      height: 27px;
+      background-color: transparent;
+      border: 1px solid black;
+      border-left: none;
+      cursor: pointer;
+  }
 
 header .LOGO{
     font-size: 23px;
@@ -41,7 +53,7 @@ header .user{
     text-align: right;
     margin: 12px;
     cursor: pointer;
-}
+}*/
 
 .navbar-principal {
     display: flex;

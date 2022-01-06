@@ -1,0 +1,61 @@
+body {
+    /*background-color: black;
+    color: white;*/
+    font-family: "Comic Sans MS", 'Comic Sans', sans-serif;
+    font-size: 14px;
+    background: linear-gradient(120deg, #1b1b1b, #323232);
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 50px;
+    background-color: orange;
+    /*background-color: #F19E9E;*/
+    margin: none;
+    color: black;
+}
+
+header .pesquisa{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  border: none;
+}
+
+header .txtBusca{
+    justify-content: center;
+    background-color:transparent;
+    font-style:italic;
+    font-size:16px;
+    height:23px;
+    width:420px;
+    border:1px solid black;
+    border-right: none;
+}
+
+header .procurar {
+    height: 27px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-left: none;
+    cursor: pointer;
+}
+
+
+header .LOGO{
+    font-size: 23px;
+    text-align: center;
+    margin: 8px;
+    margin-left: 2%;
+}
+
+header .user{
+    text-align: right;
+    margin: 12px;
+    cursor: pointer;
+}
