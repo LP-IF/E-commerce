@@ -1,8 +1,8 @@
 body {
-    /*background-color: black;
-    color: white;*/
     font-family: "Comic Sans MS", 'Comic Sans', sans-serif;
     font-size: 14px;
+    background: linear-gradient(120deg, #1b1b1b, #323232);
+    color: white;
 }
 
 header {
@@ -12,8 +12,9 @@ header {
     justify-content: space-between;
     border: 1px solid black;
     height: 50px;
-    background-color: #F19E9E;
+    background-color: orange;
     margin: none;
+    color: black;
 }
 
 header .pesquisa{
@@ -23,7 +24,7 @@ header .pesquisa{
   border: none;
 }
 
-#txtBusca{
+header .txtBusca{
     justify-content: center;
     background-color:transparent;
     font-style:italic;
@@ -73,10 +74,53 @@ header .user{
     margin-top: 5px;
     margin-bottom: 0px;
     width: auto;
+    color: black;
 }
 
 .navbar a{
     text-decoration: none;
     color: black;
     margin-right: 15px;
+}
+
+.formulario {
+    margin-inline-start: 100px;
+    margin-inline-end: 120px;
+    color: black;
+    font-weight: bold;
+}
+
+.formulario > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.formulario > div > div > input {
+    margin-left: 7px;
+}
+
+.formulario > div > div > label{
+    margin-left: 5px;
+}
+
+.formulario > div > div{
+    background-color: #06b6d4;
+    border:3px ridge black;
+}
+
+.nome{
+    height: 21px;
+}
+
+.box-nome-dataNasc{
+    margin-top: 20px;
+}
+
+.botao-enviar{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top: 30px;
 }

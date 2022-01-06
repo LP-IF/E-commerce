@@ -1,11 +1,9 @@
-body {
+/*body {
     /*background-color: black;
     color: white;*/
-    font-family: "Comic Sans MS", 'Comic Sans', sans-serif;
-    font-size: 14px;
-}
+ 
 
-/* --- MENUS --- */
+/* --- MENUS --- 
 
 header {
     display: flex;
@@ -55,7 +53,7 @@ header .user{
     text-align: right;
     margin: 12px;
     cursor: pointer;
-}
+}*/
 
 .navbar-principal {
     display: flex;

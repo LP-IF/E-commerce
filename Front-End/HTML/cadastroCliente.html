@@ -12,7 +12,7 @@
     <header>
         <div class="LOGO"><span><cite>E-fit</cite></span></div>
         <div class="pesquisa">
-                <input type="text" id="txtBusca" placeholder="O que você está procurando?"/>
+                <input type="text" class="txtBusca" placeholder="O que você está procurando?"/>
                 <button class="procurar" type="submit">
                     <i class="fa fa-search"></i>
                 </button>
@@ -25,97 +25,116 @@
             <li><a href="#">Criar nova Conta</a><i class="fas fa-chevron-right"></i></li>
         </ul>
     </div>
-    <div>
-        <form method="post">
-            <div class="nome">
-                <label>Nome</label>
-                <input type="text" name="nomeCliente">
+    <section>
+        <form class="formulario" method="post">
+            <div class="box-nome-dataNasc">
+                <div class="nome">
+                    <label>Nome</label>
+                    <input type="text" size="70" name="nomeCliente">
+                </div>
+                <div class="data-nascimento">
+                    <label>Data de nascimento</label>
+                    <input  type="date" name="usuDataNascimento"/> <br/>
+                </div>
             </div>
-            <div class="data-nascimento">
-                <label>Data de nascimento</label>
-                <input  type="date" name="usuDataNascimento"/> <br/>
+            <div class="box-logradouro">
+                <div class="logradouro">
+                    <label>Logradouro</label>
+                    <input type="text" size="85" name="logrdouroCliente">
+                </div>
             </div>
-            <div class="logradouro">
-                <label>Logradouro</label>
-                <input type="text" name="logrdouroCliente">
+            <div class="box-num-bairro">  
+                <div class="numero">
+                    <label >Número</label>
+                    <input type="number" name="numeroCliente">
+                </div>
+                <div class="bairro">
+                    <label>Bairro</label>
+                    <input type="text" size="40" name="bairroCliente">
+                </div>
             </div>
-            <div class="numero">
-                <label >Número</label>
-                <input type="number" name="numeroCliente">
+            <div class="box-cidade-estado">            
+                    <div class="cidade">
+                        <label>Cidade</label>
+                        <input type="text" size="40" name="cidadeCliente">
+                    </div>
+                <div class="estado">
+                <label>Estado
+                    <select name="opcao" id="opcao">
+                        <option value="Acre">Acre</option>
+                        <option value="Alagoas">Alagoas</option>
+                        <option value="Amapa">Amapá</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Bahia">Bahia</option>
+                        <option value="Ceara">Ceará</option>
+                        <option value="EspiritoSanto">Espírito Santo</option>
+                        <option value="Goias">Goiás</option>
+                        <option value="Maranhao">Maranhão</option>
+                        <option value="MatoGrosso">Mato Grosso</option>
+                        <option value="MatoGrossoDoSul">Mato Grosso Do Sul</option>
+                        <option value="MinasGerais">Minas Gerais</option>
+                        <option value="Pará">Pará</option>
+                        <option value="Paraiba">Paraíba</option>
+                        <option value="Parana">Paraná</option>
+                        <option value="Pernambuco">Pernambuco</option>
+                        <option value="Piaui">Piauí</option>
+                        <option value="RioDeJaneiro">Rio De Janeiro</option>
+                        <option value="RioGrandeDoNorte">Rio Grande Do Norte</option>
+                        <option value="RioGrandeDoSul">Rio Grande Do Sul</option>
+                        <option value="Rondonia">Rondônia</option>
+                        <option value="Roraima">Roraima</option>
+                        <option value="SantaCatarina">Santa Catarina</option>
+                        <option value="SaoPaulo">São Paulo</option>
+                        <option value="Sergipe">Sergipe</option>
+                        <option value="Tocantins">Tocantins</option>
+                    </select>
+                </label>
+                </div>
             </div>
-            <div class="bairro">
-                <label>Bairro</label>
-                <input type="text" name="bairroCliente">
-            </div>            
-            <div class="cidade">
-                <label>Cidade</label>
-                <input type="text" name="cidadeCliente">
+            <div class="box-complemento-cep">
+                <div class="complemento">
+                    <label>Complemento</label>
+                    <input type="text" name="complementoCliente">
+                </div>
+                <div class="cep">
+                    <label>CEP</label>
+                    <input type="number" name="cepCliente">
+                </div>
             </div>
-            <div class="estado">
-            <label>Estado
-                <select name="opcao" id="opcao">
-                    <option value="Acre">Acre</option>
-                    <option value="Alagoas">Alagoas</option>
-                    <option value="Amapa">Amapá</option>
-                    <option value="Amazonas">Amazonas</option>
-                    <option value="Bahia">Bahia</option>
-                    <option value="Ceara">Ceará</option>
-                    <option value="EspiritoSanto">Espírito Santo</option>
-                    <option value="Goias">Goiás</option>
-                    <option value="Maranhao">Maranhão</option>
-                    <option value="MatoGrosso">Mato Grosso</option>
-                    <option value="MatoGrossoDoSul">Mato Grosso Do Sul</option>
-                    <option value="MinasGerais">Minas Gerais</option>
-                    <option value="Pará">Pará</option>
-                    <option value="Paraiba">Paraíba</option>
-                    <option value="Parana">Paraná</option>
-                    <option value="Pernambuco">Pernambuco</option>
-                    <option value="Piaui">Piauí</option>
-                    <option value="RioDeJaneiro">Rio De Janeiro</option>
-                    <option value="RioGrandeDoNorte">Rio Grande Do Norte</option>
-                    <option value="RioGrandeDoSul">Rio Grande Do Sul</option>
-                    <option value="Rondonia">Rondônia</option>
-                    <option value="Roraima">Roraima</option>
-                    <option value="SantaCatarina">Santa Catarina</option>
-                    <option value="SaoPaulo">São Paulo</option>
-                    <option value="Sergipe">Sergipe</option>
-                    <option value="Tocantins">Tocantins</option>
-                </select>
-            </label>
+            <div class="box-tel-cpf">
+                <div class="telefone">
+                    <label>Telefone</label>
+                    <input type="number" name="telefoneCliente">
+                </div>
+                <div class="cpf">
+                    <label>CPF</label>
+                    <input type="number" name="cpfCliente">
+                </div>
             </div>
-            <div class="complemento">
-                <label>Complemento</label>
-                <input type="text" name="complementoCliente">
+            <div class="box-email">
+                <div class="email">
+                    <label >Email</label>
+                    <input type="text" size="40" name="emailCliente">
+                </div>
+                <div class="email2">
+                    <label>Insira novamente o email</label>
+                    <input type="text" size="40">
+                </div>
             </div>
-            <div class="cep">
-                <label>CEP</label>
-                <input type="number" name="cepCliente">
+            <div class="box-senha">
+                <div class="senha">
+                    <label>Senha</label>
+                    <input type="text" size="30" name="senhaCliente">
+                </div>
+                <div class="senha2">
+                    <label>Insira novamente a senha</label>
+                    <input type="text" size="30">
+                </div>
             </div>
-            <div class="telefone">
-                <label>Telefone</label>
-                <input type="number" name="telefoneCliente">
-            </div>
-            <div class="cpf">
-                <label>CPF</label>
-                <input type="number" name="cpfCliente">
-            </div>
-            <div class="email">
-                <label >Email</label>
-                <input type="text" name="emailCliente">
-            </div>
-            <div class="email2">
-                <label>Insira novamente o email</label>
-                <input type="text">
-            </div>
-            <div class="senha">
-                <label>Senha</label>
-                <input type="text" name="senhaCliente">
-            </div>
-            <div class="senha2">
-                <label>Insira novamente o email</label>
-                <input type="text">
+            <div class="botao-enviar">
+                <input type="submit" value="Salvar">
             </div>
           </form>
-    </div>
+    </section>
 </body>
 </html>
