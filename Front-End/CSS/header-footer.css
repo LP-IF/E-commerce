@@ -52,7 +52,24 @@ header .LOGO{
 }
 
 header .user{
+    display: flex;
     text-align: right;
     margin: 12px;
+}
+
+header .icone-usuario{
     cursor: pointer;
 }
+
+header .entre-e-cadastre{
+    margin: 3px;
+    margin-right: 7px;
+}
+
+header .entre-e-cadastre a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+
