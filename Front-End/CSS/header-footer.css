@@ -1,6 +1,4 @@
 body {
-    /*background-color: black;
-    color: white;*/
     font-family: "Comic Sans MS", 'Comic Sans', sans-serif;
     font-size: 14px;
     background: linear-gradient(120deg, #1b1b1b, #323232);
@@ -15,7 +13,6 @@ header {
     border: 1px solid black;
     height: 50px;
     background-color: orange;
-    /*background-color: #F19E9E;*/
     margin: none;
     color: black;
 }
@@ -55,7 +52,24 @@ header .LOGO{
 }
 
 header .user{
+    display: flex;
     text-align: right;
     margin: 12px;
+}
+
+header .icone-usuario{
     cursor: pointer;
 }
+
+header .entre-e-cadastre{
+    margin: 3px;
+    margin-right: 7px;
+}
+
+header .entre-e-cadastre a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+
