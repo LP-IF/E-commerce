@@ -17,6 +17,8 @@ body {
     height: 35px;
     width: auto;
     color: black;
+    line-height: 0px;
+	white-space: nowrap;
 }
 
 .navbar > ul > li{
