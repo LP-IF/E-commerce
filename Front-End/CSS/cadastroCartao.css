@@ -1,0 +1,79 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: start;
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #C4C4C4;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    height: 35px;
+    width: auto;
+    color: black;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+.navbar #icone-maior-que{
+    margin-right: 15px;
+}
+
+.formulario {
+    margin-inline-start: 100px;
+    margin-inline-end: 120px;
+    color: black;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.formulario > div {
+    display: flex;
+    flex-direction:row ;
+    justify-content: start;
+    padding-top: 40px;
+}
+
+.formulario > div > label{
+    background-color: #06b6d4;
+    border:1px ridge black;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 7px;
+    margin-left: 7px;
+} 
+
+.box-botao-salvar{
+    display: flex;
+    justify-items: center;
+    margin-top: 30px;
+    border: 1px solid white;
+}
+
+.botao-salvar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #C4C4C4;
+    padding: 15px;
+    width: 150px;
+    height: 18px;
+    line-height: 0px;
+    white-space: nowrap;
+    cursor: pointer;
+}
