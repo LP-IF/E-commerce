@@ -54,21 +54,27 @@
 table{
     width: 100%;
     border-collapse: collapse;
+    box-shadow: 2px 2px 4px #F19E9E; /*linhas*/
 }
 
-.info-cart{
+.info-carrinho{
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
+}
+
+.info-carrinho p{
+   display: flex;
 }
  th{
-     text-align: left;
-     padding: 5px;
+     text-align:left;
+     padding: 8px;
      color: black;
      background: #F19E9E;
  }
 
  td{
-     padding: 10px 5px;
+     padding: 7px 5px;
  }
 
  td input{
@@ -94,7 +100,7 @@ table{
  }
 
  .total table{
-     border-top: 2px solid #F19E9E;
-     width: 100%;
-     max-width: 300px;
- }
+    border-top: 1px solid #F19E9E;
+    width: 110%;
+    max-width: 480px;
+}
