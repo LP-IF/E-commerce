@@ -19,6 +19,7 @@ body{
     text-align: center;
     padding: 15px;
     border-bottom: 1px solid #323232;
+    color: black;
 }
 .meio form{
     padding: 0 40px; /*padding é a distância entre os elementos e a borda*/
