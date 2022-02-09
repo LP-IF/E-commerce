@@ -1,2 +1,2 @@
 # E-commerce de Artigos Esportivos
-Projeto de sistema de e-commerce
+Projeto de um sistema de e-commerce
