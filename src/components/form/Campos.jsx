@@ -3,10 +3,12 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 
 
+import CampoSelect from './CampoSelect.jsx'
 import './Campos.css'
 
-export default (props) =>
-  <div>
+export default function Form(props) {
+
+  return (
     <Box
       className='box'
       component="form"
@@ -58,13 +60,7 @@ export default (props) =>
       </div>
 
       <div>
-
-        <TextField
-          id="Estado"
-          label="Estado"
-          variant="standard"
-          size="small"
-        />
+        <CampoSelect></CampoSelect>
       </div>
 
       <div>
@@ -133,5 +129,5 @@ export default (props) =>
       </div>
     </Box>
 
-  </div>
-  
+  )
+}
