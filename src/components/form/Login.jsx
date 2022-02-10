@@ -2,6 +2,9 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 
+import Icone from './Icone';
+import Senha from './Senha';
+import BotaoSubmit from './BotaoSubmit';
 
 import './Login.css'
 
@@ -16,8 +19,7 @@ export default (props) =>
       autoComplete="off"
       
     >
-      
-
+      <Icone/>
       <div>
         <TextField
           id="email"
@@ -38,5 +40,9 @@ export default (props) =>
         />
       </div>
     </Box>
+
+      <Senha/>
+
+      <div className="entrar"><BotaoSubmit nome="Entrar"/></div>
 
   </div>
