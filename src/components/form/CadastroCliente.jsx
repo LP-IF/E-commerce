@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import Campos from './Campos';
+import CadastroProd from './CadastroProd';
 import BotaoSubmit from './BotaoSubmit';
 import Stack from '@mui/material/Stack';
 
@@ -9,8 +10,8 @@ import './CadastroCliente.css'
 export default (props) => (
   <div>
     
-    <Campos>
-    </Campos>
+    <Campos></Campos>
+    
 
     <div className="botoes-salvar">
 
