@@ -4,7 +4,7 @@ import TextField from '@mui/material/TextField';
 
 import Icone from './Icone';
 import Senha from './Senha';
-import BotaoSubmit from './BotaoSubmit';
+import BotaoSubmit from './Botao';
 
 import './Login.css'
 
