@@ -21,10 +21,9 @@ export default function MultilineTextFields() {
       <div>
         <TextField
           id="outlined-multiline-static"
-          label="Multiline"
+          label="Especificações"
           multiline
           rows={4}
-          defaultValue="Default Value"
         />
       </div>
     </Box>
