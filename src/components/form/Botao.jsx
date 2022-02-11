@@ -45,7 +45,7 @@ const BootstrapButton = styled(Button)({
   },
 });
 
-const ColorButton = styled(Button)(({ theme }) => ({
+const BotaoCustomizado = styled(Button)(({ theme }) => ({
   color: theme.palette.getContrastText(purple[500]),
   backgroundColor: purple[500],
   '&:hover': {
@@ -56,6 +56,8 @@ const ColorButton = styled(Button)(({ theme }) => ({
 export default (props) =>
     <div>
     <Stack spacing='2' direction="row">
-      <ColorButton variant="contained">{props.nome}</ColorButton>
+      <BotaoCustomizado variant="contained">{props.nome}</BotaoCustomizado>
     </Stack>
     </div>
+
+    

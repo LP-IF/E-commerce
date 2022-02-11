@@ -13,7 +13,7 @@ export default function MultilineTextFields() {
     <Box
       component="form"
       sx={{
-        '& .MuiTextField-root': { m: 1, width: '25ch' },
+        '& .MuiTextField-root': { m: 1, width: '70ch' },
       }}
       noValidate
       autoComplete="off"
@@ -24,7 +24,6 @@ export default function MultilineTextFields() {
           label="Multiline"
           multiline
           rows={4}
-          defaultValue="Default Value"
         />
       </div>
     </Box>

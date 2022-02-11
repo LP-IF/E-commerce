@@ -4,7 +4,7 @@ import TextField from '@mui/material/TextField';
 
 import Icone from './Icone';
 import Senha from './Senha';
-import BotaoSubmit from './Botao';
+import Botao from './Botao';
 
 import './Login.css'
 
@@ -43,6 +43,6 @@ export default (props) =>
 
       <Senha/>
 
-      <div className="entrar"><BotaoSubmit nome="Entrar"/></div>
+      <div className="entrar"><Botao nome="Entrar"/></div>
 
   </div>

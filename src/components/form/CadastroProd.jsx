@@ -9,7 +9,6 @@ import Tamanho from './Tamanho'
 import Cor from './Cor'
 import Especificacao from './Especificacao'
 import Botao from './Botao';
-import Botaoteste from './Botaoteste';
 
 import CadastroProd from './CadastroProd.css'
 
@@ -55,8 +54,7 @@ export default function Form(props) {
       </div>
 
       <div>
-        <Botao nome="Carregar Imagem"></Botao>
-        <Botao nome="Carregar Imagem"></Botao>
+        <Imagem></Imagem>
       </div>
 
       <div>
