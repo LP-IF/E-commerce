@@ -104,6 +104,10 @@ export default function Form(props) {
       <p>Especificação:</p>
         <Especificacao></Especificacao>
       </div>
+
+      <div className='salva'>
+        <button>Salvar</button>
+      </div>
     </Box>
 
   )
