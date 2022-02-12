@@ -8,6 +8,7 @@ import Imagem from './Imagem'
 import Tamanho from './Tamanho'
 import Cor from './Cor'
 import Especificacao from './Especificacao'
+import Botao from './Botao';
 
 import CadastroProd from './CadastroProd.css'
 

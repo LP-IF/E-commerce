@@ -4,6 +4,7 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
+import Checkbox from '@mui/material/Checkbox';
 
 export default function RadioButtonsGroup() {
   return (
@@ -14,11 +15,11 @@ export default function RadioButtonsGroup() {
         defaultValue="Cartão de Crédito"
         name="radio-buttons-group"
       >
-        <FormControlLabel value="Cartão de Crédito" control={<Radio />} label="Cartão de Crédito"/>
-        <FormControlLabel value="Cartão de Débito" control={<Radio />} label="Cartão de Débito"/>
-        <FormControlLabel value="Boleto Bancário" control={<Radio />} label="Boleto Bancário"/>
-        <FormControlLabel value="PIX" control={<Radio />} label="PIX"/>
-        <FormControlLabel value="Carteira Digital" control={<Radio />} label="Carteira Digital"/>
+        <FormControlLabel control={<Checkbox />} label="Cartão de Crédito"/>
+        <FormControlLabel control={<Checkbox />} label="Cartão de Débito"/>
+        <FormControlLabel control={<Checkbox />} label="Boleto Bancário"/>
+        <FormControlLabel control={<Checkbox />} label="PIX"/>
+        <FormControlLabel control={<Checkbox />} label="Carteira Digital"/>
       </RadioGroup>
     </FormControl>
   );

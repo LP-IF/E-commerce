@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 
 import Campos from './Campos';
 import BotaoSubmit from './BotaoSubmit';
+import CadastroProd from './CadastroProd';
+import Botao from './Botao';
 import Stack from '@mui/material/Stack';
 
 import './CadastroCliente.css'
+
 
 export default (props) => (
   <div>
@@ -14,8 +17,8 @@ export default (props) => (
 
 
     <Stack spacing='2' direction="row">
-    <div className="salvar"><BotaoSubmit nome="Salvar"/></div>
-    <div className="cadastrar-cartao"><BotaoSubmit nome="Salvar e Cadastrar Cartão"/></div>
+    <div className="salvar"><Botao nome="Salvar"/></div>
+    <div className="cadastrar-cartao"><Botao nome="Salvar e Cadastrar Cartão"/></div>
     </Stack>
 
     </div>
