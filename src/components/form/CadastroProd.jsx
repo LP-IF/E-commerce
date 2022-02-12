@@ -102,7 +102,7 @@ export default function Form(props) {
       </div>
 
       <div className='espc'>
-      <p>Especificação:</p>
+      <p>Especificaçãoo:</p>
         <Especificacao></Especificacao>
       </div>
 
