@@ -9,8 +9,8 @@ export default (props) => (
   <div className="App">
 
     {/* <Login/> */}
-    {/* <CadastroCliente/>  */}
-    <CadastroProd/> 
+    <CadastroCliente/> 
+    {/* <CadastroProd/>  */}
 
   </div>
 )

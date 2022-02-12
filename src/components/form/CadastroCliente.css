@@ -1,9 +1,15 @@
+.corpo{
+  margin-left: 12.5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 .botoes-salvar{
   display: flex;
-  margin: 100px 80px 50px 180px; 
+  margin: 100px 130px 50px 90px; 
   justify-content: center;
 }
 
 .salvar{
-  margin-right: 350px;
+  margin-right: 325px;
 }
