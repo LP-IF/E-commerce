@@ -9,10 +9,10 @@ import Categoria from './components/form/Categoria';
 export default (props) => (
   <div className="App">
 
-    {/* <Login/> 
-    <CadastroCliente/>
-    <CadastroProd/> */}
-    <Categoria/>
+    {/* <Login/>  */}
+    {/* <CadastroCliente/> */}
+    <CadastroProd/>
+    {/* <Categoria/>  */}
      
 
   </div>
