@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 
 import Campos from './Campos';
-import BotaoSubmit from './BotaoSubmit';
-import CadastroProd from './CadastroProd';
 import Botao from './Botao';
 import Stack from '@mui/material/Stack';
-
 import './CadastroCliente.css'
 
 

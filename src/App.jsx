@@ -10,9 +10,9 @@ import Botao from './components/form/Botao';
 export default (props) => (
   <div className="App">
 
-    {/* <Login/> */}
-    {/* <CadastroCliente/>  */}
-    {/* <CadastroProd/> */}
+    <Login/> 
+    <CadastroCliente/>
+    <CadastroProd/>
     <Categoria/>
      
 
