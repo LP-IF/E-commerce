@@ -4,6 +4,7 @@ import TextField from '@mui/material/TextField';
 
 
 import Pagamento from './Pagamento'
+import Frete from './Frete'
 import Imagem from './Imagem'
 import Tamanho from './Tamanho'
 import Cor from './Cor'
@@ -51,6 +52,10 @@ export default function Form(props) {
 
       <div className='pag'>
         <Pagamento></Pagamento>
+      </div>
+
+      <div className='frete'>
+      <Frete></Frete>
       </div>
 
       <div>
@@ -102,7 +107,7 @@ export default function Form(props) {
       </div>
 
       <div className='espc'>
-      <p>Especificaçãoo:</p>
+      <p>Especificação:</p>
         <Especificacao></Especificacao>
       </div>
 
