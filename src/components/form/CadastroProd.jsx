@@ -112,7 +112,7 @@ export default function Form(props) {
       </div>
 
       <div className='salva'>
-        <button>Salvar</button>
+        <Botao nome="Salvar"></Botao>
       </div>
     </Box>
 
