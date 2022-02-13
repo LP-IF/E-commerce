@@ -16,12 +16,12 @@ export default (props) => (
 
     {/* <Login/>  */}
     {/* <CadastroCliente/> */}
-    {/* <CadastroProd/> */}
+    <CadastroProd/>
     {/* <Categoria/>  */}
     {/* <ProblemaVenda /> */}
     {/* <CadastrarCartao/> */}
     {/* <CadastroAdmin/> */}
-    <CadastroPJ/>
+    {/* <CadastroPJ/> */}
      
 
   </div>
