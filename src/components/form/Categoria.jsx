@@ -13,10 +13,10 @@ export default (props) =>
   <div>
 
  
-    <section class="container row">
+    <section class="container flex">
 
 
-      <div class="item"><h1>Nome da categoria: </h1></div>
+      <div><h1>Nome da categoria: </h1></div>
       <div class="item">
         <Box
           component="form"
