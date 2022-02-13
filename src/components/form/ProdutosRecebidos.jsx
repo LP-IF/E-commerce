@@ -19,15 +19,6 @@ export default function Form(props) {
     >
       <div>
       <TextField
-          id="Fornecedor"
-          label="Fornecedor"
-          variant="standard"
-          size="small"
-        />
-      </div>
-
-      <div>
-        <TextField
           id="Produto"
           label="Produto"
           variant="standard"
@@ -35,20 +26,15 @@ export default function Form(props) {
         />
       </div>
 
+      <div className='info'>
+      <Especificacao></Especificacao>
+      </div>
+
 
       <div>
         <TextField
-          id="Quantidade"
-          label="Quantidade"
-          variant="standard"
-          size="small"
-        />
-      </div>
-      
-      <div>
-        <TextField
-          id="Data"
-          label="Data que deve ser entregue"
+          id="Cálculo"
+          label="Cálculo"
           variant="standard"
           size="small"
         />
