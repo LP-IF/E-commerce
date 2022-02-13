@@ -1,15 +1,20 @@
-import * as React from 'react';
+import React, { useState } from 'react';
+
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-
+import Stack from '@mui/material/Stack';
 
 import CampoSelect from './CampoSelect.jsx'
-import './Campos.css'
+import Botao from './Botao';
 
-export default function Form(props) {
 
-  return (
-    <Box
+import './CadastroPJ.css'
+
+export default (props) => (
+  <div>
+   
+   <div className="campos">
+   <Box
       className='box'
       component="form"
       sx={{
@@ -120,22 +125,54 @@ export default function Form(props) {
         />
       </div>
 
+      <div className="pf">
+        <span>Pessoa Física Representante</span>
+      </div>
+
       <div>
-      <TextField
-          id="Senha"
-          label="Senha"
-          type="password"
+        <TextField
+          id="nomePF"
+          label="Nome"
           variant="standard"
           size="small"
+
         />
         <TextField
-          id="SenhaConfirm"
-          label="Insire novamente a Senha"
-          type="password"
+          id="cpfPF"
+          label="CPF"
           variant="standard"
           size="small"
         />
       </div>
+
+      <div>
+        <TextField
+          id="emailPF"
+          label="E-mail"
+          variant="standard"
+          size="small"
+
+        />
+        <TextField
+          id="telefonePF"
+          label="Telefone"
+          variant="standard"
+          size="small"
+        />
+      </div>
+
     </Box>
-  )
-}
+   </div>
+
+    <div className="botao-salvar">
+
+      <Stack spacing='2' direction="row">
+        <div className="salvar"><Botao nome="Salvar" /></div>
+      </Stack>
+
+    </div>
+    
+
+  </div>
+
+)

@@ -54,7 +54,7 @@ const BotaoCustomizado = styled(Button)(({ theme }) => ({
 }));
 
 export default (props) =>
-    <div>
+    <div className='botao'>
     <Stack spacing='2' direction="row">
       <BotaoCustomizado variant="contained">{props.nome}</BotaoCustomizado>
     </Stack>

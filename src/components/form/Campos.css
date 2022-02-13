@@ -3,3 +3,15 @@
   margin-top:50px;
   margin-bottom: 50px; 
 }
+
+.estado-cidade{
+  display: flex;
+  margin: 10px;
+  margin-left: -143px;
+  margin-bottom: 0px;
+  justify-content: space-around;
+}
+
+.cidade{
+  margin-left: -37px;
+}

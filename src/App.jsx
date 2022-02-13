@@ -6,15 +6,22 @@ import Login from './components/form/Login';
 import CadastroProd from './components/form/CadastroProd';
 import Categoria from './components/form/Categoria';
 import ProblemaVenda from './components/form/ProblemaVenda';
+import CadastrarCartao from './components/form/CadastrarCartao';
+import CadastroAdmin from './components/form/CadastroAdmin';
+import CadastroPJ from './components/form/CadastroPJ';
+
 
 export default (props) => (
   <div className="App">
 
     {/* <Login/>  */}
     {/* <CadastroCliente/> */}
+    {/* <CadastroProd/> */}
     {/* <Categoria/>  */}
-    <ProblemaVenda />
-
+    {/* <ProblemaVenda /> */}
+    {/* <CadastrarCartao/> */}
+    {/* <CadastroAdmin/> */}
+    <CadastroPJ/>
      
 
   </div>

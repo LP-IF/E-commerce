@@ -1,9 +1,9 @@
 .botoes-salvar{
   display: flex;
-  margin: 100px 80px 50px 180px; 
+  margin: 100px 90px 50px 180px; 
   justify-content: center;
 }
 
 .salvar{
-  margin-right: 350px;
+  margin-right: 325px;
 }
