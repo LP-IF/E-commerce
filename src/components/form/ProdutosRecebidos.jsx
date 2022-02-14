@@ -1,10 +1,11 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+import CadastroProd from './CadastroProd.css'
 
 import Especificacao from './Especificacao'
 
-import CadastroProd from './CadastroProd.css'
+
 
 export default function Form(props) {
 
@@ -32,7 +33,7 @@ export default function Form(props) {
       </div>
 
 
-      <div>
+      <div className='calc'>
         <TextField
           id="Cálculo"
           label="Cálculo"

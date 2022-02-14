@@ -5,8 +5,8 @@ import CadastroCliente from './components/form/CadastroCliente';
 import Login from './components/form/Login';
 import CadastroProd from './components/form/CadastroProd';
 import Categoria from './components/form/Categoria';
-import CompraFalta from './components/form/CompraFalta';
-import ProdutoRecebido from './components/form/ProdutosRecebidos';
+import ProdutoFalta from './components/form/ProdutoFalta';
+import ProdutosRecebidos from './components/form/ProdutosRecebidos';
 import ProblemaVenda from './components/form/ProblemaVenda';
 import CadastrarCartao from './components/form/CadastrarCartao';
 import CadastroAdmin from './components/form/CadastroAdmin';
@@ -21,8 +21,8 @@ export default (props) => (
     {/* <CadastroCliente/> */}
     {/* <CadastroProd/> */}
     {/* <Categoria/>  */}
-    {/* <CompraFalta/> */}
-     {/* <ProdutosRecebidos/> */}
+    <ProdutoFalta/>
+    {/* <ProdutosRecebidos/> */}
     {/* <ProblemaVenda/> */}
     {/* <CadastrarCartao/> */}
      {/* <CadastroAdmin/> */}

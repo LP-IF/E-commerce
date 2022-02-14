@@ -1,9 +1,12 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-
-
 import CadastroProd from './CadastroProd.css'
+
+import FornecedoresNomes from './FornecedoresNomes'
+import ProdutosNomes from './ProdutosNomes'
+
+
 
 export default function Form(props) {
 
@@ -18,21 +21,11 @@ export default function Form(props) {
       
     >
       <div>
-      <TextField
-          id="Fornecedor"
-          label="Fornecedor"
-          variant="standard"
-          size="small"
-        />
+     <FornecedoresNomes></FornecedoresNomes>
       </div>
 
       <div>
-        <TextField
-          id="Produto"
-          label="Produto"
-          variant="standard"
-          size="small"
-        />
+      <ProdutosNomes></ProdutosNomes>
       </div>
 
 
@@ -44,11 +37,11 @@ export default function Form(props) {
           size="small"
         />
       </div>
-      
+
       <div>
         <TextField
-          id="Data"
-          label="Data que deve ser entregue"
+          id="Para que dia deve ser entregue"
+          label="Para que dia deve ser entregue"
           variant="standard"
           size="small"
         />

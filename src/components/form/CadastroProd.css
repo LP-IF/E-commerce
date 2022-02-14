@@ -27,8 +27,8 @@
 }
 
 .salva{
-    margin-left: 30px;
-    margin-top:130px;
+    margin-left: 250px;
+    margin-top:50px;
     margin-bottom: 100px;
     width:40em;
 }
@@ -41,8 +41,15 @@
 }
 
 .info{
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top:25px;
+    margin-bottom: 10px;
+    width:5em;
+}
+
+.calc{
+    margin-left: 5px;
+    margin-top:90px;
     margin-bottom: 10px;
     width:15em;
 }
