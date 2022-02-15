@@ -1,11 +1,4 @@
-.salvar{
-  display: flex;
-  margin-top: -30px;
-  margin-left: -175px; 
-  justify-content: center;
-}
-
-.cadCartao{
+.prodFalta{
   display:flex;
   text-align: center;
   width: 98.4vw;

@@ -8,7 +8,10 @@ import './CadastroAdmin.css'
 
 export default (props) => (
   <div>
-   <Campos></Campos>
+     <div className='cadPF'>
+      <span>Cadastro de Administrador</span>
+    </div>
+    <Campos></Campos>
 
     <div className="botao-salvar">
 
@@ -17,10 +20,8 @@ export default (props) => (
       </Stack>
 
     </div>
-    
-    <div className='logx'> 
-  <span>Cadastro PF</span> 
-  </div>
+
+
   </div>
 
 )

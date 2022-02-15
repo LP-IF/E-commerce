@@ -11,27 +11,31 @@ import Botao from './Botao';
 
 export default (props) =>
   <div>
-  <div className='logx'> 
+  <div className='cat'> 
   <span>Categoria</span> 
   </div>
  
-    <section class="container flex">
+    <section className="container">
 
-      <div class="item">
+      <div className="item">
         <Box
           component="form"
           sx={{
-            '& > :not(style)': { m: 1, width: '25ch' },
+            '& > :not(style)': { m: 1, width: '50ch' },
           }}
           noValidate
           autoComplete="off"
         >
           <TextField id="outlined-basic" label="Categoria" variant="outlined" />
+
+         <div className='salvar'> <Botao nome="Salvar">Salvar</Botao></div>
+
         </Box>
+        
       </div>  
 
     </section>
 
-    <Botao nome="Salvar" class="salvar">Salvar</Botao>
+    
 
   </div>

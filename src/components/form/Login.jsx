@@ -46,11 +46,11 @@ export default (props) =>
     </Box>
 
       <Senha/>
-
+{/* 
       <div className="entrar"><Botao nome="Entrar"/></div>
 
       <div className='logx'> 
     <span>Cadastro Cliente</span> 
-    </div>
+    </div> */}
 
   </div>

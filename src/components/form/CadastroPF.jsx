@@ -8,11 +8,10 @@ import './CadastroCliente.css'
 
 export default (props) => (
   <div>
-   <Campos></Campos>
-
-
-    
-
+    <div className='cadPF'>
+      <span>Cadastro Pessoa Física</span>
+    </div>
+    <Campos></Campos>
     <div className="botao-salvar">
 
       <Stack spacing='2' direction="row">
@@ -20,9 +19,7 @@ export default (props) => (
       </Stack>
 
     </div>
-    <div className='logx'> 
-  <span>Cadastro PJ</span> 
-  </div>
+
 
   </div>
 

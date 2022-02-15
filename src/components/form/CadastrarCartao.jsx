@@ -21,7 +21,7 @@ export default (props) => (
       
     >
 
-  <div className='logx'> 
+  <div className='cadCartao'> 
   <span>Cadastro Cartão</span> 
   </div>
       <div>
@@ -69,9 +69,6 @@ export default (props) => (
     </Stack>
 
     </div>
-    <div className='logx'> 
-  <span>Cadastro Administrador</span> 
-  </div>
 
   </div>
 

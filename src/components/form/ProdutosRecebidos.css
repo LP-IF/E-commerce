@@ -1,11 +1,4 @@
-.salvar{
-  display: flex;
-  margin-top: -30px;
-  margin-left: -175px; 
-  justify-content: center;
-}
-
-.cadCartao{
+.prodRec{
   display:flex;
   text-align: center;
   width: 98.4vw;
@@ -16,4 +9,11 @@
   justify-content: center;
   font-size:x-large;
   background-color: antiquewhite;
+}
+
+.salvar{
+  display: flex;
+  margin-top: 50px;
+  margin-right: 140px;
+  justify-content: center;
 }

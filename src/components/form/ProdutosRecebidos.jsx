@@ -2,10 +2,11 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Stack from '@mui/material/Stack';
-import CadastroProd from './CadastroProd.css'
 
 import Especificacao from './Especificacao'
 import Botao from './Botao'
+
+import './ProdutosRecebidos.css'
 
 
 export default function Form(props) {
@@ -20,7 +21,7 @@ export default function Form(props) {
       autoComplete="off"
       
     >
-      <div className='logx'> 
+      <div className='prodRec'> 
     <span>Produto Recebido</span> 
     </div>
 
@@ -47,12 +48,12 @@ export default function Form(props) {
         />
       </div>
 
-      <div className="falta">
-
-    <Stack spacing='2' direction="row">
-    <div className="salvar-falta"><Botao nome="Salvar"/></div>
-    </Stack>
+    <div className="salvar">
+      <Stack spacing='2' direction="row">
+      <div><Botao nome="Salvar"/></div>
+      </Stack>
     </div>
+    
     </Box>
 
   )

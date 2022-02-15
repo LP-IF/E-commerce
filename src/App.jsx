@@ -17,16 +17,16 @@ import CadastroPJ from './components/form/CadastroPJ';
 export default (props) => (
   <div className="App">
 
-      <Login/>  
-     <CadastroCliente/> 
-    <CadastroProd/> 
-    {/*<Categoria/>*/}
-    <ProdutoFalta/>
-    <ProdutosRecebidos/>
-    <ProblemaVenda/>
-    <CadastrarCartao/>
-     <CadastroAdmin/>
-     <CadastroPF/>
+     {/*  <Login/>  */} 
+     {/* <CadastroCliente/>  */}
+    {/* <CadastroProd/>  */}
+    {/* <Categoria/> */}
+    {/* <ProdutoFalta/> */}
+    {/* <ProdutosRecebidos/> */}
+    {/* <ProblemaVenda/> */}
+    {/* <CadastrarCartao/> */}
+    {/*  <CadastroAdmin/> */}
+    {/*  <CadastroPF/> */}
      <CadastroPJ/>
      
 

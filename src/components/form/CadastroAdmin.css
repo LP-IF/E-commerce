@@ -5,3 +5,14 @@
   justify-content: center;
 }
 
+.cadPF{
+  display:flex;
+  text-align: center;
+  width: 98.4vw;
+  border: 2px solid black;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  justify-content: center;
+  font-size:x-large;
+  background-color: antiquewhite;
+}

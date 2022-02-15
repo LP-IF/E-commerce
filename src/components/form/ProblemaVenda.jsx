@@ -9,7 +9,7 @@ import Botao from './Botao';
 export default (props) =>
 <div>
 
-  <div className='logx'> 
+  <div className='problemaV'> 
     <span>Problemas Venda</span> 
     </div>
     <div className='prod'>

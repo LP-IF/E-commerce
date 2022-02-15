@@ -11,7 +11,7 @@ import Cor from './Cor'
 import Especificacao from './Especificacao'
 import Botao from './Botao';
 
-import CadastroProd from './CadastroProd.css'
+import './CadastroProd.css';
 
 export default function Form(props) {
 
@@ -25,7 +25,7 @@ export default function Form(props) {
       autoComplete="off"
       
     >
-       <div className='logx'> 
+       <div className='cadProd'> 
     <span>Cadastro Produto</span> 
     </div>
       <div>
