@@ -1,15 +1,16 @@
-import * as React from 'react';
+import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import CadastroProd from './CadastroProd.css'
+import Stack from '@mui/material/Stack';
+import CadastroProd from './CadastroProd.css';
+import Campos from './Campos';
+import FornecedoresNomes from './FornecedoresNomes';
+import ProdutosNomes from './ProdutosNomes';
 
-import FornecedoresNomes from './FornecedoresNomes'
-import ProdutosNomes from './ProdutosNomes'
+import Botao from './Botao';
 
-
-export default function Form(props) {
-
-  return (
+  export default (props) => (
+    <div>
     <Box
       className='box'
       component="form"
@@ -48,11 +49,12 @@ export default function Form(props) {
           size="small"
         />
       </div>
-
-      <div className='salva'>
-        <button>Salvar</button>
-      </div>
     </Box>
+    <div className="falta">
 
+          <Stack spacing='2' direction="row">
+          <div className="salvar-falta"><Botao nome="Salvar"/></div>
+          </Stack>
+        </div>
+    </div>
   )
-}

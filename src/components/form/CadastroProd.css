@@ -27,7 +27,7 @@
 }
 
 .salva{
-    margin-left: 250px;
+    margin-left: 450px;
     margin-top:150px;
     margin-bottom: 100px;
     width:40em;
@@ -52,4 +52,11 @@
     margin-top:90px;
     margin-bottom: 10px;
     width:15em;
+}
+
+.falta{
+    margin-left: 550px;
+    margin-top:70px;
+    margin-bottom: 100px;
+    width:40em;
 }

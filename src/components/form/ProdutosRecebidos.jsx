@@ -1,10 +1,11 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+import Stack from '@mui/material/Stack';
 import CadastroProd from './CadastroProd.css'
 
 import Especificacao from './Especificacao'
-
+import Botao from './Botao'
 
 
 export default function Form(props) {
@@ -46,9 +47,12 @@ export default function Form(props) {
         />
       </div>
 
-      <div className='salva'>
-        <button>Salvar</button>
-      </div>
+      <div className="falta">
+
+    <Stack spacing='2' direction="row">
+    <div className="salvar-falta"><Botao nome="Salvar"/></div>
+    </Stack>
+    </div>
     </Box>
 
   )

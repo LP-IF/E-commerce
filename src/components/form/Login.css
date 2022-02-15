@@ -17,9 +17,10 @@
 }
 
 .logx{
-  display: flex;
+  display:flex;
   text-align: center;
-  margin-left: -151px;
+  margin-left:-500px;
+  margin-right: -500px;
   border: 2px solid black;
   margin-top: 100px;
   margin-bottom: 50px;
