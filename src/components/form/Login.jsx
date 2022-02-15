@@ -19,6 +19,10 @@ export default (props) =>
       autoComplete="off"
       
     >
+      <div className='logx'> 
+      <span>Login</span> 
+      </div>
+
       <Icone/>
       <div>
         <TextField
@@ -44,5 +48,9 @@ export default (props) =>
       <Senha/>
 
       <div className="entrar"><Botao nome="Entrar"/></div>
+
+      <div className='logx'> 
+    <span>Cadastro Cliente</span> 
+    </div>
 
   </div>

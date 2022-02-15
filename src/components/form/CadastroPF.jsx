@@ -20,7 +20,9 @@ export default (props) => (
       </Stack>
 
     </div>
-    
+    <div className='logx'> 
+  <span>Cadastro PJ</span> 
+  </div>
 
   </div>
 

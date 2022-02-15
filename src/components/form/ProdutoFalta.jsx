@@ -7,7 +7,6 @@ import FornecedoresNomes from './FornecedoresNomes'
 import ProdutosNomes from './ProdutosNomes'
 
 
-
 export default function Form(props) {
 
   return (
@@ -20,6 +19,9 @@ export default function Form(props) {
       autoComplete="off"
       
     >
+      <div className='logx'> 
+    <span>Produto Falta</span> 
+    </div>
       <div>
      <FornecedoresNomes></FornecedoresNomes>
       </div>

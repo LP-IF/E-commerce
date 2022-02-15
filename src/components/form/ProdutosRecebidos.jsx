@@ -19,6 +19,10 @@ export default function Form(props) {
       autoComplete="off"
       
     >
+      <div className='logx'> 
+    <span>Produto Recebido</span> 
+    </div>
+
       <div>
       <TextField
           id="Produto"

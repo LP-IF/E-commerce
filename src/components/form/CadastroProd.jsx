@@ -25,6 +25,9 @@ export default function Form(props) {
       autoComplete="off"
       
     >
+       <div className='logx'> 
+    <span>Cadastro Produto</span> 
+    </div>
       <div>
         <TextField
           id="Nome"

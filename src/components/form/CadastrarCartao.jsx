@@ -20,6 +20,10 @@ export default (props) => (
       autoComplete="off"
       
     >
+
+  <div className='logx'> 
+  <span>Cadastro Cartão</span> 
+  </div>
       <div>
       <TextField
           id="nomeTitular"
@@ -65,6 +69,9 @@ export default (props) => (
     </Stack>
 
     </div>
+    <div className='logx'> 
+  <span>Cadastro Administrador</span> 
+  </div>
 
   </div>
 

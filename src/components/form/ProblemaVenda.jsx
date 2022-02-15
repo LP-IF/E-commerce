@@ -4,6 +4,11 @@ import TextField from '@mui/material/TextField';
 
 export default (props) =>
 <div>
+
+  <div className='logx'> 
+    <span>Problemas Venda</span> 
+    </div>
+    
     <p>Produto: </p>
     <Box
       component="form"
@@ -13,6 +18,7 @@ export default (props) =>
       noValidate
       autoComplete="off"
     >
+
       <TextField id="outlined-basic" label="Produto" variant="outlined" />
     </Box>
 

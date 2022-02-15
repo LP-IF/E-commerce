@@ -15,3 +15,15 @@
   margin-right: auto;
   width:6em;
 }
+
+.logx{
+  display: flex;
+  text-align: center;
+  margin-left: -151px;
+  border: 2px solid black;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  justify-content: center;
+  font-size:x-large;
+  background-color: antiquewhite;
+}

@@ -18,7 +18,9 @@ export default (props) => (
 
     </div>
     
-
+    <div className='logx'> 
+  <span>Cadastro PF</span> 
+  </div>
   </div>
 
 )

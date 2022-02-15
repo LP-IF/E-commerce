@@ -11,12 +11,12 @@ import Botao from './Botao';
 
 export default (props) =>
   <div>
-
+  <div className='logx'> 
+  <span>Categoria</span> 
+  </div>
  
     <section class="container flex">
 
-
-      <div><h1>Nome da categoria: </h1></div>
       <div class="item">
         <Box
           component="form"
