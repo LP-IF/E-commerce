@@ -12,14 +12,13 @@ import CadastrarCartao from './components/form/CadastrarCartao';
 import CadastroAdmin from './components/form/CadastroAdmin';
 import CadastroPF from './components/form/CadastroPF';
 import CadastroPJ from './components/form/CadastroPJ';
-import Relatorio from './components/Relatorio';
 
 
 export default (props) => (
   <div className="App">
 
      {/*  <Login/>  */} 
-     {/* <CadastroCliente/>  */}
+     <CadastroCliente/> 
     {/* <CadastroProd/>  */}
     {/* <Categoria/> */}
     {/* <ProdutoFalta/> */}
@@ -29,7 +28,6 @@ export default (props) => (
     {/*  <CadastroAdmin/> */}
     {/*  <CadastroPF/> */}
      {/* <CadastroPJ/> */}
-     <Relatorio/>
      
 
   </div>
