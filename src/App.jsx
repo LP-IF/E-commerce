@@ -12,6 +12,7 @@ import CadastrarCartao from './components/form/CadastrarCartao';
 import CadastroAdmin from './components/form/CadastroAdmin';
 import CadastroPF from './components/form/CadastroPF';
 import CadastroPJ from './components/form/CadastroPJ';
+import Relatorio from './components/Relatorio';
 
 
 export default (props) => (
@@ -27,7 +28,8 @@ export default (props) => (
     {/* <CadastrarCartao/> */}
     {/*  <CadastroAdmin/> */}
     {/*  <CadastroPF/> */}
-     <CadastroPJ/>
+     {/* <CadastroPJ/> */}
+     <Relatorio/>
      
 
   </div>
